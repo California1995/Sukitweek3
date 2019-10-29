@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">week1</string>
+
+    <string name="namae">Number1</string>
+    <string name="btn_1">Number2</string>
+    <string name="text_2">Number3</string>
+    <string name="btn_3">Number4</string>
+    <string name="text_4">Number5</string>
+</resources>
