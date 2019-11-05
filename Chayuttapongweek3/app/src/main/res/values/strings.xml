@@ -4,9 +4,9 @@
     <string name="tv_header1">กรุณากรอกข้อมูล</string>
     <string name="tv_fname">ชื่อ</string>
     <string name="tv_lname">นามสกุล</string>
-    <string name="tv_nname">ชื่อเล่น</string>
-    <string name="tv_sport">กีฬา</string>
-    <string name="tv_hobbieh">งานอดิเรก</string>
+    <string name="tv_old">อายุ</string>
+    <string name="tv_pet">สัตว์เลี้ยงที่เลี้ยง</string>
+    <string name="tv_motorcycle">รถจักรยานยนต์ที่ใช้</string>
     <string name="btn_sender">ส่งข้อมูล</string>
     <string name="btn_clear">ล้างข้อมูล</string>
     <string name="btn_close">ปิด</string>

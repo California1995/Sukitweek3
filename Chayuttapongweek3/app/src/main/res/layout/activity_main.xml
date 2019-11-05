@@ -71,20 +71,20 @@
         android:id="@+id/btn_sender"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="48dp"
-        android:backgroundTint="#64B5F6"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="96dp"
+        android:backgroundTint="#67CC6A"
         android:text="@string/btn_sender"
         android:textColor="#0F0C0C"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_hobbieh" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_motorcycle" />
 
     <Button
         android:id="@+id/btn_clear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="44dp"
-        android:backgroundTint="#DBB52B"
+        android:layout_marginEnd="80dp"
+        android:backgroundTint="#73D1E2"
         android:text="@string/btn_clear"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btn_sender" />
@@ -93,46 +93,46 @@
         android:id="@+id/btn_close"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="172dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="168dp"
         android:backgroundTint="#FD0505"
         android:text="@string/btn_close"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/et_hb" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_clear" />
 
     <TextView
-        android:id="@+id/tv_nname"
+        android:id="@+id/tv_old"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="@string/tv_nname"
+        android:text="@string/tv_old"
         android:textSize="24sp"
         app:layout_constraintStart_toStartOf="@+id/tv_lname"
         app:layout_constraintTop_toBottomOf="@+id/tv_lname" />
 
     <TextView
-        android:id="@+id/tv_sport"
+        android:id="@+id/tv_pet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
-        android:text="@string/tv_sport"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/tv_nname"
-        app:layout_constraintTop_toBottomOf="@+id/tv_nname" />
+        android:text="@string/tv_pet"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_old"
+        app:layout_constraintTop_toBottomOf="@+id/tv_old" />
 
     <TextView
-        android:id="@+id/tv_hobbieh"
+        android:id="@+id/tv_motorcycle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
-        android:text="@string/tv_hobbieh"
-        android:textSize="24sp"
-        app:layout_constraintStart_toStartOf="@+id/tv_sport"
-        app:layout_constraintTop_toBottomOf="@+id/tv_sport" />
+        android:text="@string/tv_motorcycle"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/tv_pet"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pet" />
 
     <EditText
-        android:id="@+id/et_nname"
+        android:id="@+id/et_old"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -140,30 +140,31 @@
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.67"
-        app:layout_constraintStart_toEndOf="@+id/tv_nname"
+        app:layout_constraintStart_toEndOf="@+id/tv_old"
         app:layout_constraintTop_toBottomOf="@+id/et_lname" />
 
     <EditText
-        android:id="@+id/et_sp"
+        android:id="@+id/et_pet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.756"
-        app:layout_constraintStart_toEndOf="@+id/tv_sport"
-        app:layout_constraintTop_toBottomOf="@+id/et_nname" />
+        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintStart_toEndOf="@+id/tv_pet"
+        app:layout_constraintTop_toBottomOf="@+id/et_old" />
 
     <EditText
-        android:id="@+id/et_hb"
+        android:id="@+id/et_mt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toEndOf="@+id/tv_hobbieh"
-        app:layout_constraintTop_toBottomOf="@+id/et_sp" />
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toEndOf="@+id/tv_motorcycle"
+        app:layout_constraintTop_toBottomOf="@+id/et_pet" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

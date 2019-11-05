@@ -47,10 +47,10 @@
         android:text="@string/btn_back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_res_hb" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_res_mt" />
 
     <TextView
-        android:id="@+id/tv_res_nname"
+        android:id="@+id/tv_res_old"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -61,7 +61,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_res_lname" />
 
     <TextView
-        android:id="@+id/tv_res_sp"
+        android:id="@+id/tv_res_pet"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -69,10 +69,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_res_nname" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_res_old" />
 
     <TextView
-        android:id="@+id/tv_res_hb"
+        android:id="@+id/tv_res_mt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
@@ -80,5 +80,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_res_sp" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_res_pet" />
 </androidx.constraintlayout.widget.ConstraintLayout>
