@@ -15,15 +15,15 @@ class SecoundAcitivity : AppCompatActivity() {
 
         var fname = intent.extras?.getString(MainActivity().TAG_FNAME)
         var lname = intent.extras?.getString(MainActivity().TAG_LNAME)
-        var old = intent.extras?.getString(MainActivity().TAG_OLD)
+        var nname = intent.extras?.getString(MainActivity().TAG_NNAME)
+        var sp = intent.extras?.getString(MainActivity().TAG_SP)
         var hb = intent.extras?.getString(MainActivity().TAG_HB)
-        var st = intent.extras?.getString(MainActivity().TAG_ST)
 
         tv_res_fname.setText(fname)
         tv_res_lname.setText(lname)
-        tv_res_old.setText(old)
+        tv_res_nname.setText(nname)
+        tv_res_sp.setText(sp)
         tv_res_hb.setText(hb)
-        tv_res_st.setText(st)
 
         btn_back.setOnClickListener {
 

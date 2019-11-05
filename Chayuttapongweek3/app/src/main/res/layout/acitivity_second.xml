@@ -10,7 +10,7 @@
         android:id="@+id/tv_header2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="28dp"
         android:text="@string/tv_header2"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -32,9 +32,10 @@
         android:id="@+id/tv_res_lname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="44dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_res_fname" />
 
@@ -42,17 +43,17 @@
         android:id="@+id/btn_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="48dp"
         android:text="@string/btn_back"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_res_st" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_res_hb" />
 
     <TextView
-        android:id="@+id/tv_res_old"
+        android:id="@+id/tv_res_nname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="40dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
@@ -60,23 +61,24 @@
         app:layout_constraintTop_toBottomOf="@+id/tv_res_lname" />
 
     <TextView
-        android:id="@+id/tv_res_hb"
+        android:id="@+id/tv_res_sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="52dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_res_old" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_res_nname" />
 
     <TextView
-        android:id="@+id/tv_res_st"
+        android:id="@+id/tv_res_hb"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginTop="44dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_res_hb" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_res_sp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
